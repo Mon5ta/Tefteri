@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tefteri</string>
+    <string name="water">water</string>
+    <string name="coffee">coffee</string>
+    <string name="fizzy">fizzy</string>
+    <string name="alcohol">alcohol</string>
+    <string name="food">food</string>
+    <string name="iceCream">ice cream</string>
+    <string name="addItem">Προσθήκη</string>
+    <string name="itemTitle">Τίτλος προϊόντος</string>
+    <string name="itemCategory">Κατηγορία προϊόντος</string>
+    <string name="insert">Εισαγωγή</string>
+    <string name="categoryChoice">Κατηγορία:</string>
+    <string name="continueButton">Συνέχεια</string>
+    <string name="amount">Ποσότητα:</string>
+
+    <string-array name="categorySpinner">
+        <item>ΝΕΡΟ</item>
+        <item>ΚΑΦΕΣ/ΡΟΦΗΜΑ</item>
+        <item>ΑΝΑΨΥΚΤΙΚΟ/ΧΥΜΟΣ</item>
+        <item>ΑΛΚΟΛ/ΠΟΤΟ</item>
+        <item>ΣΝΑΚ/ΦΑΓΗΤΟ</item>
+        <item>ΠΑΓΩΤΟ</item>
+    </string-array>
+
+</resources>

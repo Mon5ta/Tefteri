@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    tools:context="view.MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/background2"
+        android:contentDescription="@string/addItem">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/waterImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_water"
+        app:layout_constraintBottom_toTopOf="@+id/coffeeImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/coffeeImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_coffee"
+        app:layout_constraintBottom_toTopOf="@+id/fizzyImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waterImageButton"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/fizzyImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fizzy"
+        app:layout_constraintBottom_toTopOf="@+id/alcoholImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeImageButton"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/alcoholImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alcohol"
+        app:layout_constraintBottom_toTopOf="@+id/foodImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fizzyImageButton"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/foodImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_food"
+        app:layout_constraintBottom_toTopOf="@+id/iceCreamImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alcoholImageButton"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/iceCreamImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ice_cream"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodImageButton"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
